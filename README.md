@@ -25,10 +25,10 @@ The basic idea is given below:
 3. Segment out the red colored cloth by generating a mask.
 4. Generate the final augmented output to create the magical effect.
 
-- [background.py](../background.py)
+- [background.py](./background.py)
     It is used for extracting the static background frame. We will replace the current frame pixels corresponding to the cloth with the background pixels to generate the effect of an invisibility cloak. For this we need to store the frame of a static background.
 
-- [invisible_cloak.py](../invisible_cloak.py)
+- [invisible_cloak.py](./invisible_cloak.py)
     Invisible_cloak file records the main window and works with the image saved by ``background.py`` for making the invisible cloak.
 
 ## Reference Links
