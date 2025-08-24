@@ -1,4 +1,4 @@
-from cv2 import cv2
+import cv2
 # THIS IS WEBCAM
 cap = cv2.VideoCapture(0)
 
